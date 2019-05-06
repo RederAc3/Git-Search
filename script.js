@@ -32,7 +32,9 @@ class App extends React.Component {
                         id="searchText"
                         onChange={event => this.onChangeHandle(event)}
                         value={this.state.searchText} />
+                        <input className="button-submit" type="submit" value="Search"/>
                 </form>
+
                 <UsersList users={this.state.users} />
             </div>
         );

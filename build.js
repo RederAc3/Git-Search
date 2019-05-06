@@ -69,7 +69,8 @@ var App = function (_React$Component) {
                         onChange: function onChange(event) {
                             return _this3.onChangeHandle(event);
                         },
-                        value: this.state.searchText })
+                        value: this.state.searchText }),
+                    React.createElement("input", { className: "button-submit", type: "submit", value: "Search" })
                 ),
                 React.createElement(UsersList, { users: this.state.users })
             );
