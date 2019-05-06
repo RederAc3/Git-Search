@@ -1,0 +1,50 @@
+body {
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body #root {
+margin: auto;
+}
+
+body #root form {
+    display: flex;
+    flex-direction: column;
+}
+
+body #root form label {
+text-align: center;
+margin: 20px 0;
+font-weight: 700;
+}
+
+body #root form input {
+height: 30px;
+padding: 0 5px;
+font-size: 20px;
+}
+
+body #root .users {
+
+}
+
+body #root .users a {
+    display: flex;
+    align-items: center;
+    background: #e3e3e3;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+body #root .users a img {
+    border-radius: 50%;
+}
+
+body #root .users a p {
+    color: #979797;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
